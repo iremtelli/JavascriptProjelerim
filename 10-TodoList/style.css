@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #f0b042, #f16de4);
+  gap: 50px;
+}
+
+header {
+  display: flex;
+  background: rgb(241, 218, 222);
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+}
+header span {
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container input,
+.select-container select {
+  width: 300px;
+  padding: 20px 20px;
+  border-radius: 12px;
+  border: none;
+}
+.btn-container button {
+  padding: 20px 20px;
+  width: 130px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-container button:hover {
+  background-color: rgb(186, 182, 182);
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.work-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  width: 300px;
+  background: #a4c084;
+  gap: 10px;
+  padding: 15px 15px;
+}
+.family-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 15px;
+  min-height: 50px;
+  background: #f27fe6;
+  width: 300px;
+}
+.personel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 15px;
+  width: 300px;
+  min-height: 50px;
+  background: rgb(142, 142, 222);
+}
+.single-todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  color: #333;
+
+  background: white;
+  border-radius: 12px;
+}
+
+.todo-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

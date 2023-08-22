@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  gap: 10px;
+}
+
+.btnIncrease {
+  padding: 15px 15px;
+  border-radius: 12px;
+  border: none;
+}
+
+.btnDecrease {
+  padding: 15px 15px;
+  border-radius: 12px;
+  border: none;
+}
+
+.btnReset {
+  padding: 15px 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+#number {
+  font-size: 40px;
+}

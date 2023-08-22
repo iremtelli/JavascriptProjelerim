@@ -1,0 +1,40 @@
+body {
+  background: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#text {
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 16px;
+  padding: 15px 15px;
+}
+.btnText {
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+h1,
+h4 {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.btnText {
+  cursor: pointer;
+}
