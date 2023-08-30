@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(to right, red, yellow);
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  gap: 10px;
+}
+
+#btncolor {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+input {
+  float: left;
+}

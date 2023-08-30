@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  color: aliceblue;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  min-height: 100vh;
+}
+h2 {
+  font-size: 30em;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#7c1b29, #aa6000);
+  border: black;
+  border-radius: 5px;
+}
